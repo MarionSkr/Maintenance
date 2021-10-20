@@ -1,0 +1,17 @@
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+
+.font-open {
+    font-family:'Open Sans'
+}
+ h1 {
+   line-height: 1.25 !important; 
+ }
+
+@tailwind utilities;
+
+@layer components {
+
+  }
+
