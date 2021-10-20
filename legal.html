@@ -5,10 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">-->
-  <link href="dist/tailwind.css" rel="stylesheet">
+  <link href="tailwind.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-  <!--<link href="css/style.css" rel="stylesheet">-->
   <title>Mentions Légales</title>
 </head>
 
@@ -26,7 +24,8 @@
                 <p class="text-base text-gray-900 max-w-xl md:max-w-3xl">Pour revenir dans le droit chemin c'est juste en dessous !</p>
                 <div class="mt-8 flex justify-center">
                 <div class="mb-6 md:mb-0">
-                    <a href="https://marionskr.com" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 md:px-12 transition duration-700 ease-in-out">Retour à l'acceuil</a>
+                    <a href="https://marionskr.com" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-military hover:bg-military
+                    md:px-12 transition duration-700 ease-in-out">Retour à l'acceuil</a>
                 </div>
                 </div>
             </div>
@@ -113,81 +112,23 @@
       </div>
     </main>
 
-    <footer>
-        <div class="bg-darkblue">
-            <div class="max-w-7xl mx-auto px-4 px-6 lg:px-8 py-20">  <!-- Footer  -->
-                <div class="flex grid grid-cols-1 md:grid-cols-4 item-start text-center md:text-left">
-                  <div class="flex justify-center md:justify-start md:col-start-1 md:col-end-1">
-                    <div class="flex flex-col">
-                    <div class="flex-shrink-0">
-                      <img class="h-8" src="img/Marion-Logo-White.svg" alt="Logo MarionSkr">
-                    </div>
-                        <div class="flex flex-row mt-5 justify-center md:justify-start">
-                        <a href="https://www.linkedin.com/in/marion-soukri/" class="hover:opacity-80 px-3 py-2 rounded-md text-sm" target="_blank"><img src="img/Linkedin-Marion-Soukri.svg" alt=""></a>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="md:col-start-3 md:col-end-3 mt-8 md:mt-0">
-                    <div class="ml-4 flex flex-col md:ml-6">
-                      <a href="https://marionskr.com" class="text-white hover:text-gray-400 px-3 py-2 ext-sm">MarionSkr</a>
-                      <a href="https://marionskr.com#Services" class="text-white hover:text-gray-400 px-3 py-2 ext-sm">Services</a>
-                      <a href="https://marionskr.com#APropos" class="text-white hover:text-gray-400 px-3 py-2 text-sm">À propos</a>
-                      <a href="https://marionskr.com#Methodologie" class="text-white hover:text-gray-400 px-3 py-2 text-sm">Méthodologie</a>
-                      <a href="https://marionskr.com#Recommandations" class="text-white hover:text-gray-400 px-3 py-2 text-sm">Recommandations</a>
-                      <a href="https://marionskr.com#Contact" class="text-white hover:text-gray-400 px-3 py-2 text-sm">Contact</a>
-                    </div>
-                  </div>
-                  <div class="md:col-start-4 md:col-end-4 mt-8 md:mt-0">
-                    <div class="flex flex-col md:ml-6">
-                      <div class="flex flex-shrink-0 justify-center md:justify-start">
-                          <img class="h-12" src="img/logo-LFC.svg" alt="Logo Le French Crew">
-                        </div>
-                          <a href="https://www.instagram.com/lefrenchcrew/" class="text-white hover:text-gray-400 px-3 py-2 text-sm" target="_blank">Instagram</a>
-                          <a href="https://www.linkedin.com/company/le-french-crew/" class="text-white hover:text-gray-400 px-3 py-2 text-sm" target="_blank">Linkedin</a>
-                  </div>
-                  </div>
-              </div>
-            </div> <!-- #Footer -->
-          </div>
-
-          <div class="bg-purple-500">
-            <div class="max-w-7xl mx-auto px-2 py-2">  <!-- Footer  -->
-                <div class="flex items-center grid md:grid-cols-3 grid-cols-1 text-center">
-                  <div class="md:text-left">
-                    <a href="#" class="text-purple-50 px-3 py-2 text-xs">Made in Toulouse</a>
-                  </div>
-                  <div class="">
-                    <a href="#" class="text-purple-50 px-3 py-2 text-xs">Copyright © 2020 MarionSkr</a>
-                  </div>
-                  <div class="md:text-right">
-                    <a href="rgpd.html" class="text-purple-50 px-3 py-2 text-xs">RGPD</a>  
-                    <a href="legal.html" class="text-purple-50 px-3 py-2 text-xs"> Mentions légales </a>
-                  </div>
-              </div>
-            </div> <!-- #Footer -->
-          </div>
-    
-    
-    </footer>
+    <footer class="bg-military">
+      <div class="absolute inset-x-0 bottom-0 h-10">
+        <div class="max-w-7xl mx-auto px-2 py-2">  <!-- Footer  -->
+            <div class="flex justify-center text-center text-xs space-x-2">
+                    <a href="#" class="">© MarionSkr</a>
+                    <p>|</p>
+                    <a href="rgpd.html" class="">RGPD</a> 
+                    <p>|</p> 
+                    <a href="legal.html" class="">Mentions légales </a>
+                    <p>|</p>
+                    <a href="cgv.html" class="">CGV</a>
+            </div>
+        </div>
+      </div> <!-- #Footer -->
+  </footer>
 
   </div>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/8.2.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
-
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
-
-<!-- Firebase database -->
-<script src="/__/firebase/8.2.1/firebase-database.js"></script>
-
-<!-- Aller voir la base de donnee -->
-<script src="database.js"></script>
-
 
 </body>
 </html>
